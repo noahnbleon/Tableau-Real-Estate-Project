@@ -8,3 +8,7 @@ Noah Leon [@noahnbleon](https://github.com/noahnbleon)\
 Lenny Keenan [@leonardkeenan](https://github.com/LeonardKeenan)\
 Katie Gelderman [@katiegelderman](https://github.com/Katiegelderman)\
 Tyson Colette [@tysoncolette](https://github.com/tysoncolette)
+
+### Description of dataset:
+
+### Question 1:
