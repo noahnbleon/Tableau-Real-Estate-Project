@@ -91,8 +91,7 @@ if __name__ == "__main__":
 ```
 
 ## compareData.py
-After the creation of the JSON file, it was crucial to determine if the program had successfully found the coordinates before the main program was run to create a new CSV file. This was done using the `haversine formula`:\
-$`
+After the creation of the JSON file, it was crucial to determine if the program had successfully found the coordinates before the main program was run to create a new CSV file. This was done using the `haversine formula`:
 - $`a = sin²(φB - φA/2) + cos φA * cos φB * sin²(λB - λA/2)`$
 - $`c = 2 * atan2( √a, √(1−a) )`$
 - $`d = R ⋅ c`$
