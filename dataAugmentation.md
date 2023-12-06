@@ -11,7 +11,7 @@ This portion of the project used the following Python libraries:
 5. Requests
    
 ## File Descriptions
-1. geocoding.py: A utility script that fetches latitude and longitude data for given town names by making requests to the OpenStreetMap Nominatim API.
+1. geocoding.py: A utility script that fetches latitude and longitude data for given town names by making requests to the `OpenStreetMap Nominatim API`.
 
 2. townDataCreation.py: Generates a JSON file containing precise geographic coordinates for towns in Connecticut, minimizing API calls and ensuring accurate geolocation data for the project.
 
