@@ -51,8 +51,8 @@ Understanding the geographical distribution of property sale values, along with 
 ![Map of Connecticut Median Sale Amounts (final revision)](https://github.com/noahnbleon/project2/assets/124447378/2e0225cf-d226-4d6f-ac1e-6d050cebc6c1)
 From this map we can see that there is a drastic increase in Sale Amounts in the southwestern region near the state's border with New York. Counts of Sale Amounts by Town seem primarily stratified in the central area of the state surrounding Hartford (the state's capital city), continuing towards the southwest corner of the state and also occurring sporadically in each major city (Danbury, Torrington, Norwich, New London).
 
-![Detected Outliers in our Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/124447378/c9cf8786-359c-45d7-bd2b-07affd6498f9)
-In the Data Guide panel of the map we created in Tableau, these outliers were detected. ***All five outliers seem to be near the Connecticut-New York border.
+![Detected Outliers in our Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/124447378/c9cf8786-359c-45d7-bd2b-07affd6498f9)\
+In the Data Guide panel of the map we created in Tableau, these outliers were detected.
 
 ![Outlier Median Sale Amounts by Town](https://github.com/noahnbleon/project2/assets/124447378/b5efe4cb-a705-4791-9a74-cee6ce1558d4)
 To show how the outliers compare to one another, this chart is filtered to show these Outlier Median Sale Amounts by Town.
