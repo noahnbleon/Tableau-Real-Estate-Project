@@ -10,6 +10,7 @@ Katie Gelderman [@katiegelderman](https://github.com/Katiegelderman)\
 Tyson Colette [@tysoncolette](https://github.com/tysoncolette)
 
 ### Description of dataset:
+Our dataset, sourced from [https://catalog.data.gov/dataset/real-estate-sales-2001-2018](https://catalog.data.gov/dataset/real-estate-sales-2001-2018), comprises a detailed compilation of real estate listings. With 997,213 rows, we have access to an overview of aspects for each listing, including its Address, Assessor Remarks, List Year, Location, Non Use Code, OPM Remarks, Property Type, Residential Type, Serial Number, Town, Assessed Values, Sale Amount, and Sales Ratio.
 
 ### Question 1:
 Question: Is there a monthly trend in the Sale Amounts of real estate listings in Connecticut?
