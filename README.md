@@ -23,6 +23,8 @@ It could also correlate to how seasonality affects the housing market in other s
 
 We believe that our analysis could provide important information regarding real estate market habits and strategies in Connecticut; however, we acknowledge that there are many factors outside of our dataset that could play a role in manipulating our data, and that seasonality is likely not a standalone factor.
 
+![Average   Median Sale Amounts Based on Month (2001-2020)](https://github.com/noahnbleon/project2/assets/148257298/08615c83-7ce7-45fc-80d8-f09668899af6)
+
 In our Tableau graph, we see a very flat, somewhat cyclic pattern represented by our blue Median Sale Amount line. Further, our graph shows that the Median Sale Amounts are ranging between approximately $200,000 (February, trough) and $250,000 (July, peak). Our assessment is that Sale Amounts at the median of our dataset are fairly stable.
 
 In contrast, our orange Average Sale Amount line shows a more volatile transition from month to month, indicating that our dataset may contain outliers swaying the averages accordingly. In addition, the range of our Average Sale Amounts is between approximately $350,000 (February, trough) and $450,000 (December, peak). We see that the averages within the dataset spike most dramatically out of line with the cyclic nature of our medians in August and December; whether this trend is representative of the sellers or their anticipation of who may be buying, we are uncertain. The month in which our averages most deviate from any potential trend is December; otherwise predicted to be a “flat” and “middle-range” month per our median, December represents a peak in Average Sale Amounts that rivals August.
@@ -43,14 +45,16 @@ The data could also be used to potentially correlate property values with income
 
 Understanding the geographical distribution of property sale values, along with potential factors associated with these patterns, offers valuable insights across various industries. Real estate developers can use this information to identify potential areas for investments based on demand and affordability. Financial institutions may (for better or worse) assess credit risks and tailor loan products based on property values in specific locations. Insurance companies can use this data to set premiums and manage risk profiles in different regions. Additionally, policymakers can leverage this information to evaluate the effectiveness of economic development initiatives and allocate resources more efficiently. It is important to note that these are just some potential inferences, and further analysis is needed to draw more definitive conclusions, such as household income levels, employment statistics, and population demographics.
 
+![Highest 8 Median Sale Amounts by Town](https://github.com/noahnbleon/project2/assets/148257298/0762b710-67a5-411c-a383-817ef4798f97)
 This graph shows the 8 most expensive towns in Connecticut. From the graph we can see there are clear differences in sale value depending on which town the sale occurred.
 
 We can conclude that there appears to be a relationship between certain towns and median sale amounts.
 
 ### Map of Connecticut
-
+![Map of Connecticut Median Sale Amounts Near the NY Border](https://github.com/noahnbleon/project2/assets/148257298/0b6a1964-07c9-4906-b3b0-ec115a17caf4)
 From this map we can see that there is an increased sale amount in the southwestern region.
 
+![Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/148257298/3387b61d-52e9-4692-aa90-6285373628ab)
 The observed increase in average sale amounts in the southwestern region of Connecticut, particularly in Greenwich, Darien, and New Canaan, aligns with several key factors specific to this region.
 
 ### Proximity to New York City:
