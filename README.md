@@ -1,21 +1,21 @@
 # Team 1 MIST4610 Group Project 2
 
-### Team Name:
+### Team Name
 Team 1
 
-### Team Members:
+### Team Members
 Noah Leon [@noahnbleon](https://github.com/noahnbleon)\
 Lenny Keenan [@leonardkeenan](https://github.com/LeonardKeenan)\
 Katie Gelderman [@katiegelderman](https://github.com/Katiegelderman)\
 Tyson Colette [@tysoncolette](https://github.com/tysoncolette)
 
-### Description of dataset:
+### Description of dataset
 Our dataset, sourced from [https://catalog.data.gov/dataset/real-estate-sales-2001-2018](https://catalog.data.gov/dataset/real-estate-sales-2001-2018), comprises a detailed compilation of real estate listings. With 997,213 rows, we have access to an overview of aspects for each listing, including its Address, Assessor Remarks, List Year, Location, Non Use Code, OPM Remarks, Property Type, Residential Type, Serial Number, Town, Assessed Values, Sale Amount, and Sales Ratio.
 
-### Question 1:
-Question: Is there a monthly trend in the Sale Amounts of real estate listings in Connecticut?
+### Question 1
+Is there a monthly trend in the Sale Amounts of real estate listings in Connecticut?
 
-### Importance:
+### Importance
 
 We seek to find if there are specific months of the year when the properties listed for sale in any given month have had on average higher or lower Sale Amounts compared to other months. We believe that in our pursuit to answer this question, the data we find could offer insight into when the real estate market in Connecticut is most and least affordable, and if there is a seasonality within this market.
 
@@ -33,26 +33,28 @@ Additionally this graph shows a difference between the median and average sales 
 
 Perhaps due to our bias as college students, we felt the spikes in Average Sale Amounts could potentially be related to Property Type, in that the prices of apartment complexes being listed on the market during August, December, and to some extent January could be representative of apartment complex owners listing their property on the market. If one treats Connecticut like a microcosm of the greater economy it is within, this could make sense due to the cyclic nature of college students migrating apartments after their lease ends. (However, as previously stated, Connecticut is likely not plausible to view as a microcosm due to the various other factors impacting our dataset that are unaccounted for.)
 
-### Question 2:
+### Question 2
 
-Question: Is there a relationship between location and sale value?
+Is there a relationship between Location and Median Sale Amount?
 
-### Importance:
+### Importance
 
-We want to find if a property's location has an effect on its sale value. We want to know if certain towns have real estate listings worth more or less relative to the rest of the state. This information (when combined with other data) may be used to influence decisions regarding investment and property taxes, as well as understanding how people are living in different towns within the state.
+We want to find if the Location of properties sold in Connecticut between 2001 and 2020 has an effect on its Median Sale Amount. Our goal is to use the dataset to uncover if Median Sale Amounts by Town in Connecticut contain variability. If they do not, we imagine we will see Median Sale Amounts by Town that are relatively the same as one another. If there is variability strong enough that these data are considered outliers, we intend to examine these outliers more closely.
 
-The data could also be used to potentially correlate property values with income levels, job markets, business presence, cost of living, and age of the residents.These are just some potential inferences, and further analysis is needed to draw definitive conclusions.
+### Our process
+
+The Location data stored in the dataset as coordinates proved useful for our goal; with the assistance of Python, we were able to use these coordinates to connect our data points to a map in Tableau and display their counts () and Median Sales Amounts by Town 
 
 Understanding the geographical distribution of property sale values, along with potential factors associated with these patterns, offers valuable insights across various industries. Real estate developers can use this information to identify potential areas for investments based on demand and affordability. Financial institutions may (for better or worse) assess credit risks and tailor loan products based on property values in specific locations. Insurance companies can use this data to set premiums and manage risk profiles in different regions. Additionally, policymakers can leverage this information to evaluate the effectiveness of economic development initiatives and allocate resources more efficiently. It is important to note that these are just some potential inferences, and further analysis is needed to draw more definitive conclusions, such as household income levels, employment statistics, and population demographics.
 
 ![Highest 8 Median Sale Amounts by Town](https://github.com/noahnbleon/project2/assets/148257298/0762b710-67a5-411c-a383-817ef4798f97)
-This graph shows the 8 most expensive towns in Connecticut. From the graph we can see there are clear differences in sale value depending on which town the sale occurred.
+This chart is filtered to show the first eight highest Median Sale Amounts by Town in Connecticut. There are clear differences in Median Sale Amount depending on which Town the sale occurred in. We speculate that the differences in the medians translates to a difference in overall Sale Amounts by Town.
 
 We can conclude that there appears to be a relationship between certain towns and median sale amounts.
 
 ### Map of Connecticut
 ![Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/148257298/3387b61d-52e9-4692-aa90-6285373628ab)
-From this map we can see that there is an increased sale amount in the southwestern region.
+From this map we can see that there is an increase in Sale Amounts in the southwestern region.
 
 ![Map of Connecticut Median Sale Amounts Near the NY Border](https://github.com/noahnbleon/project2/assets/148257298/0b6a1964-07c9-4906-b3b0-ec115a17caf4)
 The observed increase in average sale amounts in the southwestern region of Connecticut, particularly in Greenwich, Darien, and New Canaan, aligns with several key factors specific to this region.
