@@ -46,16 +46,16 @@ This graph shows the 8 most expensive towns in Connecticut. From the graph we ca
 
 We can conclude that there appears to be a relationship between certain towns and median sale amounts.
 
-## Map of Connecticut
+### Map of Connecticut
 
 From this map we can see that there is an increased sale amount in the southwestern region.
 
 The observed increase in average sale amounts in the southwestern region of Connecticut, particularly in Greenwich, Darien, and New Canaan, aligns with several key factors specific to this region.
 
-## Proximity to New York City:
+### Proximity to New York City:
 These towns are within commuting distance of New York City, a major financial and business center. We believe that this proximity could impact our dataset, as it could correlate with a higher frequency in individuals and families employed in high-paying jobs, driving demand for upscale housing options and leading to higher listing amounts. New York City's notoriously expensive housing market can push potential buyers to seek more affordable options nearby. This spillover effect further increases demand for properties in southwestern Connecticut.
 
-## Economic Demographics:
+### Economic Demographics:
 Greenwich, Darien, and New Canaan boast a significant concentration of affluent residents with high disposable incomes. This economic prosperity translates into a willingness and ability to pay premium prices for desirable properties. These towns offer a plethora of high-end amenities, including world-class golf courses, private clubs, and exclusive shops and restaurants. The presence of these amenities increases the overall desirability of the area, contributing to higher property values.
 
 In conclusion, the combination of proximity to New York City, affluent demographics, a limited housing supply, and a focus on luxury living all contribute to the observed increase in average sale amounts in southwestern Connecticut, particularly in Greenwich, Darien, and New Canaan.
