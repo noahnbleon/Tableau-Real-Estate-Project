@@ -51,10 +51,10 @@ This graph shows the 8 most expensive towns in Connecticut. From the graph we ca
 We can conclude that there appears to be a relationship between certain towns and median sale amounts.
 
 ### Map of Connecticut
-![Map of Connecticut Median Sale Amounts Near the NY Border](https://github.com/noahnbleon/project2/assets/148257298/0b6a1964-07c9-4906-b3b0-ec115a17caf4)
+![Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/148257298/3387b61d-52e9-4692-aa90-6285373628ab)
 From this map we can see that there is an increased sale amount in the southwestern region.
 
-![Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/148257298/3387b61d-52e9-4692-aa90-6285373628ab)
+![Map of Connecticut Median Sale Amounts Near the NY Border](https://github.com/noahnbleon/project2/assets/148257298/0b6a1964-07c9-4906-b3b0-ec115a17caf4)
 The observed increase in average sale amounts in the southwestern region of Connecticut, particularly in Greenwich, Darien, and New Canaan, aligns with several key factors specific to this region.
 
 ### Proximity to New York City:
