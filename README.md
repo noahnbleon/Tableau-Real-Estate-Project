@@ -23,7 +23,7 @@ It could also correlate to how seasonality affects the housing market in other s
 
 We believe that our analysis could provide important information regarding real estate market habits and strategies in Connecticut; however, we acknowledge that there are many factors outside of our dataset that could play a role in manipulating our data, and that seasonality is likely not a standalone factor.
 
-![Average Median Sale Amounts Based on Month (2001-2020)](https://github.com/noahnbleon/Tableau-Real-Estate-Project/assets/124447378/78d40001-b2e2-4125-8ce8-0722f74a1047)\
+![Average Median Sale Amounts Based on Month (2001-2020)](https://github.com/noahnbleon/Tableau-Real-Estate-Project/assets/124447378/78d40001-b2e2-4125-8ce8-0722f74a1047)
 
 In our Tableau graph, we see a very flat, somewhat cyclic pattern represented by our blue Median Sale Amount line. Further, our graph shows that the Median Sale Amounts are ranging between approximately $200,000 (February, trough) and $250,000 (July, peak). Our assessment is that Sale Amounts at the median of our dataset are fairly stable.
 
