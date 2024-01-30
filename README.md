@@ -23,7 +23,7 @@ It could also correlate to how seasonality affects the housing market in other s
 
 We believe that our analysis could provide important information regarding real estate market habits and strategies in Connecticut; however, we acknowledge that there are many factors outside of our dataset that could play a role in manipulating our data, and that seasonality is likely not a standalone factor.
 
-![Average   Median Sale Amounts Based on Month (2001-2020)](https://github.com/noahnbleon/project2/assets/148257298/08615c83-7ce7-45fc-80d8-f09668899af6)
+![Average Median Sale Amounts Based on Month (2001-2020)](https://github.com/noahnbleon/Tableau-Real-Estate-Project/assets/124447378/78d40001-b2e2-4125-8ce8-0722f74a1047)
 
 In our Tableau graph, we see a very flat, somewhat cyclic pattern represented by our blue Median Sale Amount line. Further, our graph shows that the Median Sale Amounts are ranging between approximately $200,000 (February, trough) and $250,000 (July, peak). Our assessment is that Sale Amounts at the median of our dataset are fairly stable.
 
@@ -48,20 +48,22 @@ The Location data stored in the dataset as coordinates proved useful for our goa
 Understanding the geographical distribution of property sale values, along with potential factors associated with these patterns, offers valuable insights across various industries. Real estate developers may be interested in using this information to identify potential areas for investments based on demand and affordability. Financial institutions may (for better or worse) assess credit risks and tailor loan products based on property values in specific locations, and insurance companies may use data similar to ours to set premiums and manage risk profiles in different regions. Additionally, policymakers may leverage information similar to this in evaluating the effectiveness of economic development initiatives and allocate resources more efficiently. It is important to note that these are just some potential inferences, and further analysis is needed to draw more definitive conclusions.
 
 ### Map of Connecticut
-![Map of Connecticut Median Sale Amounts (final revision)](https://github.com/noahnbleon/project2/assets/124447378/2e0225cf-d226-4d6f-ac1e-6d050cebc6c1)
+![Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/Tableau-Real-Estate-Project/assets/124447378/9b21d335-87f5-42f6-98d0-bec86abb2c9b)
 From this map we can see that there is a drastic increase in Sale Amounts in the southwestern region near the state's border with New York. Counts of Sale Amounts by Town seem primarily stratified in the central area of the state surrounding Hartford (the state's capital city), continuing towards the southwest corner of the state and also occurring sporadically in each major city (Danbury, Torrington, Norwich, New London).
+
 
 ![Detected Outliers in our Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/124447378/c9cf8786-359c-45d7-bd2b-07affd6498f9)\
 In the Data Guide panel of the map we created in Tableau, these outliers were detected.
 
 ![Outlier Median Sale Amounts by Town](https://github.com/noahnbleon/project2/assets/124447378/b5efe4cb-a705-4791-9a74-cee6ce1558d4)
-To show how the outliers compare to one another, this chart is filtered to show these Outlier Median Sale Amounts by Town.
+To show how the outliers compare to one another, this chart is filtered to show the Outlier Median Sale Amounts by Town.
 
 ### Highlighting the outliers on a map
 Aside from having the highest Median Sale Amounts of all the points in the dataset, we believe these Towns may tell us something about Sale Amount and Location. Our hypothesis is that their proximity to New York and their economic demograph may influence the Sale Amounts in this area.
 
-![Map of Connecticut Median Sale Amounts Near the NY Border (final revision)](https://github.com/noahnbleon/project2/assets/124447378/1f741d46-a171-4b73-997f-0d5614d61757)
+![Map of Connecticut Median Sale Amounts Near the NY Border](https://github.com/noahnbleon/Tableau-Real-Estate-Project/assets/124447378/b5321b8b-42bf-48d7-a348-4a1150c27217)
 In this map, we focus on only our five outliers and add a Background Layer that accounts for data gathered regarding percentage of Blue Collar and Farm Occupation as according to the Census Tract in 2018. The observed increase in Median Sale Amounts in specifically the southwestern region of Connecticut near the New York border and outside of blue collar and rural areas (excluding the southwestern-most city of Greenwich) aligns with our hypothesis. We believe that Greenwich's heightened proximity to New York compared to the other outliers may override the presence of a large, primarily blue collar and rural area nearby.
+
 
 #### Proximity to New York City:
 These 5 towns are within commuting distance of New York City, a major financial and business center. We believe that this proximity could impact our dataset, as it could correlate with a higher frequency in individuals and families employed in high-paying jobs, driving demand for upscale housing options and leading to higher listing amounts. New York City's notoriously expensive housing market can push potential buyers to seek more affordable options nearby. This spillover effect further increases demand for properties, possibly in southwestern Connecticut.
