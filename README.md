@@ -31,7 +31,7 @@ In contrast, our orange Average Sale Amount line shows a more volatile transitio
 
 Additionally this graph shows a difference between the median and average sales that ranges from $150,000 to $250,000. We believe this is caused by outliers in the dataset that are pulling on the average. For this reason we deduce that the median line shows a more accurate pattern, meaning the housing market in Connecticut is relatively stable with a peak over the summer months.
 
-Perhaps due to our bias as college students, we felt the spikes in Average Sale Amounts could potentially be related to Property Type, in that the prices of apartment complexes being listed on the market during August, December, and to some extent January could be representative of apartment complex owners listing their property on the market. If one treats Connecticut like a microcosm of the greater economy it is within, this could make sense due to the cyclic nature of college students migrating apartments after their lease ends. (However, as previously stated, Connecticut is likely not plausible to view as a microcosm due to the various other factors impacting our dataset that are unaccounted for.)
+Perhaps due to our bias as college students, we believe the spikes in Average Sale Amounts could potentially be related to Property Type, in that the prices of apartment complexes being listed on the market during August, December, and to some extent January could be representative of apartment complex owners listing their property on the market. If one treats Connecticut like a microcosm of the greater economy it is within, this could make sense due to the cyclic nature of college students migrating apartments after their lease ends. (However, as previously stated, Connecticut is likely not plausible to view as a microcosm due to the various other factors impacting our dataset that are unaccounted for.)
 
 ### Question 2
 
@@ -39,7 +39,7 @@ Is there a relationship between Location and Median Sale Amount?
 
 ### Importance
 
-We want to find if the Location of properties sold in Connecticut between 2001 and 2020 has an effect on its Median Sale Amount. Our goal is to use the dataset to uncover if Median Sale Amounts by Town in Connecticut contain variability. If they do not, we imagine we will see Median Sale Amounts by Town that are relatively the same as one another. If there is variability strong enough that these data are considered outliers, we intend to examine these outliers more closely.
+We want to find if the Location of properties sold in Connecticut between 2001 and 2020 has an effect on its Median Sale Amount. Our goal is to use the dataset to uncover if Median Sale Amounts by Town in Connecticut contain variability. If they do not, we predict we will see Median Sale Amounts by Town that are relatively the same as one another. If there is variability strong enough that these data are considered outliers, we intend to examine these outliers more closely.
 
 ### Our process
 
@@ -49,8 +49,7 @@ Understanding the geographical distribution of property sale values, along with 
 
 ### Map of Connecticut
 ![Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/Tableau-Real-Estate-Project/assets/124447378/9b21d335-87f5-42f6-98d0-bec86abb2c9b)\
-From this map we can see that there is a drastic increase in Sale Amounts in the southwestern region near the state's border with New York. Counts of Sale Amounts by Town seem primarily stratified in the central area of the state surrounding Hartford (the state's capital city), continuing towards the southwest corner of the state and also occurring sporadically in each major city (Danbury, Torrington, Norwich, New London).
-
+From this map, we see that there is a dramatic increase in Sale Amounts in the southwestern region, near the state's border with New York. Counts of Sale Amounts by Town seem primarily stratified in the central area of the state surrounding Hartford (the state's capital city), continuing toward the southwest corner of the state and also occurring sporadically in each major city (Danbury, Torrington, Norwich, New London).
 
 ![Detected Outliers in our Map of Connecticut Median Sale Amounts](https://github.com/noahnbleon/project2/assets/124447378/c9cf8786-359c-45d7-bd2b-07affd6498f9)\
 In the Data Guide panel of the map we created in Tableau, these outliers were detected.
@@ -69,14 +68,14 @@ In this map, we focus on only our five outliers and add a Background Layer that 
 These 5 towns are within commuting distance of New York City, a major financial and business center. We believe that this proximity could impact our dataset, as it could correlate with a higher frequency in individuals and families employed in high-paying jobs, driving demand for upscale housing options and leading to higher listing amounts. New York City's notoriously expensive housing market can push potential buyers to seek more affordable options nearby. This spillover effect further increases demand for properties, possibly in southwestern Connecticut.
 
 #### Economic Demographics:
-After some research using external sources ([Greenwich Household Income](https://statisticalatlas.com/place/Connecticut/Greenwich/Household-Income), [New Canaan Household Income](https://statisticalatlas.com/county-subdivision/Connecticut/Fairfield-County/Town-of-New-Canaan/Household-Income), [Darien Household Income](https://statisticalatlas.com/place/Connecticut/Darien/Household-Income), ([Westport Household Income](https://statisticalatlas.com/place/Connecticut/Westport/Household-Income), [Weston Household Income](https://statisticalatlas.com/county-subdivision/Connecticut/Fairfield-County/Town-of-Weston/Household-Income)), we see that our outlier towns are largely composed of affluent residents with incomes of $250,000 a year or greater. This economic prosperity translates into a willingness and ability to pay higher prices for desirable properties. Further, towns with richer residents tend to have greater access to high-end amenities. The presence of these amenities increases the overall desirability of the area, contributing to higher property values.
+After some research using external sources ([Greenwich Household Income](https://statisticalatlas.com/place/Connecticut/Greenwich/Household-Income), [New Canaan Household Income](https://statisticalatlas.com/county-subdivision/Connecticut/Fairfield-County/Town-of-New-Canaan/Household-Income), [Darien Household Income](https://statisticalatlas.com/place/Connecticut/Darien/Household-Income), ([Westport Household Income](https://statisticalatlas.com/place/Connecticut/Westport/Household-Income), [Weston Household Income](https://statisticalatlas.com/county-subdivision/Connecticut/Fairfield-County/Town-of-Weston/Household-Income)), we see that our outlier towns are largely composed of affluent residents with incomes of $250,000 a year or greater. This economic prosperity translates into a willingness and ability to pay higher prices for desirable properties. Further, towns with more affluent residents tend to have greater access to high-end amenities. The presence of these amenities increases the overall desirability of the area, contributing to higher property values.
 
-We believe that the combination of greater proximity to New York City and the affluence of residents contributes to the observed increase in average Sale Amount in southwestern Connecticut.
+We believe that the combination of greater proximity to New York City and affluence of residents contributes to the observed increase in average Sale Amount in southwestern Connecticut.
 
 ### Manipulations applied to the data set for analysis
-For the map visual, we augmented the Location data in order to be useful for Python so that we could create our maps in Tableau. The information on how this was done is available within the repository (Project 2 > src > dataAugmentation.md). Also available are the town coordinates after they were coded to function with Tableau (Project 2 > data > Output > town_coordinates.json).
+For the map visualization, we augmented the Location data to be useful for Python so that we could create our maps in Tableau. Detail on how this was done is available within the repository (Tableau Real Estate Project > src > dataAugmentation.md). Also available are the town coordinates after they were coded to function with Tableau (Tableau Real Estate Project > data > Output > town_coordinates.json).
 
 ### Tableau workbook
-The packaged workbook containing the visualizations shown above is NOT attached to this repository (we're sorry, GitHub wouldn't let us attach it; but you can find all images used above in Project2 > Charts).
+The packaged workbook containing the visualizations shown above was not able to be attached to this repository. However, you can find all images used above in Tableau Real Estate Project > Charts.
 
-## Made with love, Tableau, Python, and Gnu Image Manipulation Program (to put legends on the empty space in our maps!)
+## Made with love, Tableau, Python, and Gnu Image Manipulation Program
